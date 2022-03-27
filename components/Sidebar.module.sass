@@ -1,0 +1,47 @@
+.sidebar
+  width: 394px
+  padding: 24px 32px
+  border-left: 1px solid #e6e6e6
+
+  &__cta
+    width: 100%
+    margin-bottom: 32px
+
+  &__heading
+    font-size: 18px
+    margin-bottom: 22px
+    font-weight: 600
+
+  &__post
+    &:not(:last-child)
+      margin-bottom: 20px
+    &__author
+      display: flex
+      align-items: center
+      margin-bottom: 8px
+      &__avatar
+        width: 28px
+        height: 28px
+        background-color: #ddd
+        border-radius: 50%
+        margin-right: 8px
+        background-size: cover
+        background-position: center
+      &__name
+        font-size: 13px
+    &__title
+      font-size: 16px
+      font-weight: bold
+      line-height: 1.4
+
+  &__tags
+    display: flex
+    flex-wrap: wrap
+    margin: -4px
+  &__tag
+    margin: 4px
+    padding: 8px 16px
+    font-size: 14px
+    background-color: #f2f2f2
+    border-radius: 20px
+    cursor: pointer
